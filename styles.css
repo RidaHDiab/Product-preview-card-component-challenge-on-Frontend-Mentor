@@ -1,0 +1,82 @@
+body{
+    background-color:  hsl(30, 38%, 92%);
+    text-align: center;
+    font-size: 14px;
+}
+img{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.card{
+    position: fixed;
+    background-color:white;
+    text-align: left;
+    height: 400px;
+    width: 520px;
+    left: 400px;
+    top: 100px;
+    box-shadow: 5px;
+    box-shadow: #1f232e;
+    border-radius: 10px;
+
+}
+h1{
+    color: #1f232e;
+    font-family: 'Fraunces';
+    
+}
+p{
+font-family: 'Montserrat';
+color: hsl(228, 12%, 48%);
+}
+.perfume{
+    padding-top: 10px;
+    letter-spacing: 5px;
+}
+.price{
+    align-items: center;
+    display:inline-flex;
+}
+.active-price{
+
+    color: #467968;
+    float: left;
+    margin-right: 50px;
+}
+.old-price{
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.btn {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color: #3f8068;
+    width: 45%;
+    height: 50px;
+	cursor:pointer;
+	display: inline-flex;
+	align-items: center;
+    
+}
+.btn:hover {
+	background-color: #184131;
+}
+.btn span.icon {
+    background-image: url("/images/icon-cart.svg");
+	padding: 10px 10px;
+    color: #FFFFFF;
+    margin-left: 30%;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+.attribution { font-size: 11px; text-align: center; }
+    
+.attribution a { color: hsl(228, 45%, 44%); }
+  
