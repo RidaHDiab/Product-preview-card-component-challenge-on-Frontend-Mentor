@@ -67,7 +67,8 @@ color: hsl(228, 12%, 48%);
 	background-color: #184131;
 }
 .btn span.icon {
-    background-image: url("/images/icon-cart.svg");
+    background-image: url("//images/icon-cart.svg");
+		padding: 10px 10px;
     color: #FFFFFF;
     margin-left: 30%;
     margin-right: 10px;
